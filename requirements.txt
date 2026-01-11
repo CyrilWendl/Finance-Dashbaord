@@ -1,0 +1,9 @@
+# Finance Dash Dashboard (lokal)
+# Installieren:
+#   python3 -m pip install -r requirements.txt
+
+# Dash (enthält Plotly-Komponenten für Web-Dashboards)
+dash>=2.14
+
+# Plotly (wird teils durch Dash mitgebracht, explizit für Sicherheit)
+plotly>=5,<6

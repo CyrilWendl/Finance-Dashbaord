@@ -1,0 +1,144 @@
+date,kind,amount,category,group,note
+
+2025-02-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-02-02,expense,75,ÖV-Abo,fix,Monatsabo (Schule/Training)
+2025-02-03,expense,22.5,Schule,fix,Druck/Arbeitshefte
+2025-02-05,expense,25,Handy,fix,Monatsabo
+2025-02-07,expense,18.9,Drogerie,fix,Shampoo/Deo
+2025-02-08,expense,9.2,Getränke,want,Eistee unterwegs
+2025-02-10,expense,14.5,Restaurant,want,Mittag (Schulkiosk)
+2025-02-12,expense,6.8,Freizeit,want,Games/Apps
+2025-02-14,expense,24.9,Restaurant,want,Abendessen mit Kolleg:innen
+2025-02-15,expense,12.5,Freizeit,want,Kino
+2025-02-16,expense,21.3,Lebensmittel,fix,Snack/kleiner Einkauf
+2025-02-20,expense,6.2,Getränke,want,Kaffee unterwegs
+2025-02-23,expense,34.9,Kleidung,want,T-Shirt/Hoodie Sale
+2025-02-25,expense,14.95,Streaming,want,Monatsabo
+2025-02-27,expense,39.8,Online-Shop,want,Online-Bestellung (klein)
+2025-02-28,income,420,Lohn,,Nebenjob (Monat)
+
+2025-03-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-03-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-03-05,expense,25,Handy,fix,Monatsabo
+2025-03-08,expense,8.9,Drogerie,fix,Zahnpasta
+2025-03-10,expense,11.4,Restaurant,want,Mittag
+2025-03-12,expense,7.6,Getränke,want,Kaffee
+2025-03-14,expense,49.9,Online-Shop,want,Online-„Splurge“ (Merch)
+2025-03-15,expense,190,ÖV,fix,Halbtax (Jahresabo)
+2025-03-18,expense,18.0,Schule,fix,Material (Mappe/Stifte)
+2025-03-22,expense,32,Freizeit,want,Bowling
+2025-03-24,expense,16.5,Restaurant,want,Pizza
+2025-03-28,expense,59.0,Kleidung,want,Jeans (Anteil)
+2025-03-31,income,480,Lohn,,Nebenjob (Monat)
+
+2025-04-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-04-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-04-05,expense,25,Handy,fix,Monatsabo
+2025-04-06,expense,15.6,Drogerie,fix,Haushalt/Bodycare
+2025-04-10,expense,9.9,Freizeit,want,Games/Apps
+2025-04-12,expense,12.3,Getränke,want,Bubble Tea
+2025-04-15,expense,23.5,Restaurant,want,Mittag
+2025-04-18,expense,29.9,Online-Shop,want,Online-Bestellung (Accessoires)
+2025-04-20,expense,11.2,Gesundheit,fix,Apotheke
+2025-04-24,expense,40,Sparen,save,Übertrag Sparkonto
+2025-04-26,expense,27.8,Freizeit,want,Ausgang
+2025-04-30,income,450,Lohn,,Nebenjob (Monat)
+
+2025-05-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-05-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-05-05,expense,25,Handy,fix,Monatsabo
+2025-05-07,expense,19.9,Schule,fix,Heft/Material
+2025-05-10,expense,12.6,Restaurant,want,Mittag
+2025-05-14,expense,13.5,Getränke,want,Eistee/Kaffee
+2025-05-18,expense,24.5,Restaurant,want,Mittag
+2025-05-22,expense,119.0,Online-Shop,want,Online-„Splurge“ (Sneaker/Teilzahlung)
+2025-05-27,expense,14.95,Streaming,want,Monatsabo
+2025-05-31,income,520,Lohn,,Nebenjob (Monat)
+
+2025-06-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-06-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-06-05,expense,25,Handy,fix,Monatsabo
+2025-06-08,expense,17.9,Freizeit,want,Schwimmbad
+2025-06-12,expense,9.8,Drogerie,fix,Haushalt
+2025-06-15,expense,14.2,Restaurant,want,Mittag
+2025-06-18,expense,6.1,Getränke,want,Kaffee
+2025-06-22,expense,36.5,Restaurant,want,Abendessen
+2025-06-25,expense,80,Sparen,save,Übertrag Sparkonto
+2025-06-28,expense,54.9,Online-Shop,want,Online-Bestellung (Sommer)
+2025-06-30,income,480,Lohn,,Nebenjob (Monat)
+
+2025-07-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-07-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-07-05,expense,25,Handy,fix,Monatsabo
+2025-07-06,expense,22.4,Freizeit,want,Eis/See
+2025-07-10,expense,14.5,Getränke,want,Kaffee unterwegs
+2025-07-12,expense,18.6,Restaurant,want,Mittag
+2025-07-18,expense,19.9,Freizeit,want,Games/Apps
+2025-07-21,expense,149.0,Online-Shop,want,Online-„Splurge“ (Sommer-Outfit)
+2025-07-24,expense,210,Reisen,want,Kurztrip (Zug/Hostel Anteil)
+2025-07-31,income,650,Lohn,,Nebenjob (Sommer mehr Schichten)
+
+2025-08-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-08-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-08-05,expense,25,Handy,fix,Monatsabo
+2025-08-07,expense,35.8,Schule,fix,Schulmaterial (Semesterstart)
+2025-08-10,expense,16.5,Drogerie,fix,Sonnencreme
+2025-08-15,expense,28.4,Restaurant,want,Mittag
+2025-08-20,expense,120,Schule,fix,Lehrmittel/Bücher
+2025-08-23,expense,42.0,Online-Shop,want,Online-Bestellung (Schule)
+2025-08-27,expense,42,Freizeit,want,Konzert (Ticket)
+2025-08-31,income,520,Lohn,,Nebenjob (Monat)
+
+2025-09-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-09-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-09-05,expense,25,Handy,fix,Monatsabo
+2025-09-06,expense,10.4,Gesundheit,fix,Apotheke
+2025-09-10,expense,12.9,Restaurant,want,Mittag
+2025-09-13,expense,7.6,Getränke,want,Kaffee
+2025-09-18,expense,26.0,Freizeit,want,Kino
+2025-09-22,expense,79.0,Online-Shop,want,Online-„Splurge“ (Tech-Zubehör)
+2025-09-24,expense,100,Sparen,save,Übertrag Sparkonto
+2025-09-27,expense,14.95,Streaming,want,Monatsabo
+2025-09-30,income,500,Lohn,,Nebenjob (Monat)
+
+2025-10-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-10-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-10-05,expense,25,Handy,fix,Monatsabo
+2025-10-11,expense,12.2,Drogerie,fix,Haushalt
+2025-10-15,expense,13.4,Restaurant,want,Mittag
+2025-10-19,expense,26.9,Restaurant,want,Abendessen
+2025-10-23,expense,68.5,Kleidung,want,Hoodie
+2025-10-26,expense,59.9,Online-Shop,want,Online-Bestellung (Herbst)
+2025-10-31,income,520,Lohn,,Nebenjob (Monat)
+
+2025-11-01,income,120,Taschengeld,,Taschengeld (Monat)
+2025-11-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-11-05,expense,25,Handy,fix,Monatsabo
+2025-11-07,expense,9.9,Freizeit,want,Kino
+2025-11-10,expense,14.7,Geschenke,want,Geburtstag (kleines Geschenk)
+2025-11-16,expense,21.5,Restaurant,want,Mittag
+2025-11-20,expense,35.2,Freizeit,want,Ausgang
+2025-11-24,expense,120,Sparen,save,Übertrag Sparkonto
+2025-11-28,expense,89.0,Online-Shop,want,Online-„Splurge“ (Black Friday)
+2025-11-30,income,480,Lohn,,Nebenjob (Monat)
+
+2025-12-01,income,200,Taschengeld,,Taschengeld (Weihnachtsmonat)
+2025-12-02,expense,75,ÖV-Abo,fix,Monatsabo
+2025-12-05,expense,25,Handy,fix,Monatsabo
+2025-12-10,expense,28.9,Restaurant,want,Weihnachtsessen Schule
+2025-12-12,expense,36.7,Geschenke,want,Weihnachtsgeschenke
+2025-12-16,expense,19.8,Drogerie,fix,Bodycare/Haushalt
+2025-12-20,expense,64.8,Lebensmittel,fix,Snacks/Partybeitrag
+2025-12-22,expense,150,Sparen,save,Übertrag Sparkonto
+2025-12-27,expense,14.95,Streaming,want,Monatsabo
+2025-12-29,expense,129.0,Online-Shop,want,Online-„Splurge“ (Sale)
+2025-12-31,income,550,Lohn,,Nebenjob (Monat)
+
+2026-01-01,income,120,Taschengeld,,Taschengeld (Monat)
+2026-01-02,expense,75,ÖV-Abo,fix,Monatsabo
+2026-01-05,expense,25,Handy,fix,Monatsabo
+2026-01-08,expense,13.2,Gesundheit,fix,Apotheke
+2026-01-09,expense,11.9,Restaurant,want,Mittag
+2026-01-11,income,420,Lohn,,Nebenjob (Monat)
+2026-01-11,expense,25.5,Restaurant,want,Beispiel: Pizza
+2026-01-11,expense,50,Sparen,save,Beispiel: Sparkonto
