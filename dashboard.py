@@ -24,11 +24,14 @@ from __future__ import annotations
 import base64
 import csv
 import io
+import os
 import sys
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+
+from werkzeug.exceptions import RequestEntityTooLarge
 
 import plotly.express as px
 import plotly.graph_objects as go
@@ -71,14 +74,22 @@ def _bytes_to_text(data: bytes) -> str:
 
 
 def _sniff_dialect(sample: str) -> csv.Dialect:
+	class _ExcelSemicolon(csv.Dialect):
+		delimiter = ";"
+		quotechar = '"'
+		doublequote = True
+		skipinitialspace = False
+		lineterminator = "\r\n"
+		quoting = csv.QUOTE_MINIMAL
+
 	try:
 		sniffer = csv.Sniffer()
 		return sniffer.sniff(sample, delimiters=";,\t,")
 	except Exception:
 		# very common in German-speaking regions
 		if sample.count(";") > sample.count(","):
-			return csv.get_dialect("excel")
-		return csv.get_dialect("excel")
+			return _ExcelSemicolon
+		return csv.excel
 
 
 def _empty_fig(title: str) -> go.Figure:
@@ -350,6 +361,24 @@ def fig_savings_projection(monthly_saving: float) -> go.Figure:
 app = Dash(__name__)
 app.title = "Budget Dashboard"
 
+# Posit Connect serves the app via WSGI. Expose the Flask server.
+server = app.server
+
+# Uploads are posted to the Dash callback endpoint; on servers this often hits
+# a request body limit. Make it configurable.
+_max_upload_mb = int(os.getenv("DASH_MAX_UPLOAD_MB", "25"))
+server.config["MAX_CONTENT_LENGTH"] = _max_upload_mb * 1024 * 1024
+
+
+@server.errorhandler(RequestEntityTooLarge)
+def _handle_upload_too_large(e):
+	# Dash will surface this as a failed request; this message ends up in logs.
+	return (
+		f"Upload zu gross (Limit: {_max_upload_mb} MB). "
+		"Verkleinere die CSV oder erhoehe DASH_MAX_UPLOAD_MB.",
+		413,
+	)
+
 
 def template_csv_text() -> str:
 	rows = [
@@ -475,6 +504,13 @@ def download_template(n_clicks: int):
 	State("upload-csv", "filename"),
 )
 def handle_upload(contents: str | None, filename: str | None):
+	if not contents:
+		return None, "Noch keine Datei hochgeladen."
+	# Some Dash versions/browsers may deliver list values even with multiple=False.
+	if isinstance(contents, list):
+		contents = contents[0] if contents else None
+	if isinstance(filename, list):
+		filename = filename[0] if filename else None
 	if not contents:
 		return None, "Noch keine Datei hochgeladen."
 	try:
